@@ -1,0 +1,16 @@
+n=int(input("enter the number"))
+def isahappynumber(num):
+    rem=sum=0
+    while(num>0):
+        rem=num%10
+        sum=sum+(rem*rem)
+        num=num//10
+        return sum
+num=int(input("enter the number"))
+result=num
+while(result!=1 and result!=4):
+    result= 'isahappynumber',(result)
+if(result==1):
+    print(str(num)+"is a happynumber")
+elif(result):
+    print(str(num)+"is not a happy number")
