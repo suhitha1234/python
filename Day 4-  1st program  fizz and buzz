@@ -1,0 +1,9 @@
+n=int(input("Enter any number :"))
+for i in range(1,n):
+	if i % 3 == 0:	
+		print("Fizz")										
+		continue
+	elif i % 5 == 0:		
+		print("Buzz")									
+		continue
+	print(i)
